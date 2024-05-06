@@ -1,0 +1,13 @@
+package com.siemens.banking.app;
+//Entry point for banking application
+
+public class App {
+/*
+ * Java starts the execution from main
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           System.out.println("Rocking with Java.....");
+	}
+
+}

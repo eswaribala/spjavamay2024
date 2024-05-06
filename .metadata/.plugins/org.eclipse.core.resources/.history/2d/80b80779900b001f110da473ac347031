@@ -1,0 +1,8 @@
+package com.siemens.bankingmodels;
+
+public class Customer {
+	
+	private FullName name;
+	
+
+}

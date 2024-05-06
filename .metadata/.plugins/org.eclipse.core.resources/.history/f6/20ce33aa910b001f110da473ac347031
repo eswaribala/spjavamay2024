@@ -1,0 +1,13 @@
+package com.siemens.bankingmodels;
+
+public class Customer {
+	
+	private long accountNo;
+	private FullName name;
+	private long contactNo;
+	private String email;
+	private String password;
+	private Address address;
+	
+
+}

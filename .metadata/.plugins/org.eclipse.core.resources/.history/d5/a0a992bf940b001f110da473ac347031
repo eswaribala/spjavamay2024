@@ -1,0 +1,8 @@
+package com.siemens.bankingmodels;
+
+public class FullName {
+
+	private String firstName;
+	private String middleName;
+	private String lastName;
+}
