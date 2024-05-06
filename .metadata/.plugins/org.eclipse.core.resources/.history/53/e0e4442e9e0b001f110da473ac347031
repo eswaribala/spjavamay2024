@@ -1,0 +1,15 @@
+package com.siemens.banking.app;
+
+import com.siemens.bankingmodels.Gender;
+
+public class TaxApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int salary=0;
+		Gender gender=Gender.MALE;
+		
+
+	}
+
+}
