@@ -1,0 +1,19 @@
+package com.siemens.bankingmodels;
+
+import java.time.LocalDate;
+
+public class Account {
+	
+   private long runningTotal;
+   private LocalDate openingDate;
+   public Account(long runningTotal, LocalDate openingDate) {
+		super();
+		this(runningTotal);
+		this.openingDate = openingDate;
+	}
+   
+   public Account(long runingTotal) {
+	   
+   }
+   
+}

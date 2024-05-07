@@ -46,7 +46,7 @@ public class App {
       //enhanced for loop
       
       for(Customer customer:customers) {
-    	  System.out.println(customer instanceof Object);
+    	  System.out.println(customer instanceof Address);
     	  System.out.println(customer);
       }
     		   
