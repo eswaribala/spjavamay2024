@@ -1,0 +1,18 @@
+package com.siemens.bankingmodels;
+
+import java.time.LocalDate;
+import lombok.AllArgsConstructor;
+
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+
+public class Individual extends Customer{
+
+	private Gender gender;
+	private LocalDate dob;
+	
+	
+	
+}

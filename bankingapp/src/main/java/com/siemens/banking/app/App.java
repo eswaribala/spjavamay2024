@@ -50,7 +50,19 @@ public class App {
     	  System.out.println(customer);
       }
     		   
-           
+      Customer customer1=new Customer();
+      customer1.setContactNo(1234567890);
+      Customer customer2=customer1;
+      Customer customer3=new Customer();
+      if(customer1.equals(customer2))
+    	  System.out.println("Same");
+      else
+    	  System.out.println("Not Same");
+      
+      if(customer1.equals(customer3))
+    	  System.out.println("Same");
+      else
+    	  System.out.println("Not Same");
            
 	}
 	

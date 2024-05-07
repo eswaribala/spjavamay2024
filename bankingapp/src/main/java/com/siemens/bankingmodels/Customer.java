@@ -5,18 +5,20 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Customer {
 	
-	private long accountNo;
-	private FullName name;
-	private long contactNo;
-	private String email;
-	private String password;
-	private Address address;
+	protected long accountNo;
+	protected FullName name;
+	protected long contactNo;
+	protected String email;
+	protected String password;
+	protected Address address;
 	
 	
 
