@@ -15,7 +15,7 @@ public class Account {
    public Account(long runningTotal, LocalDate openingDate) {
 		//invoke another constructor
 		this(openingDate);
-		//this.runningTotal=runningTotal;
+		this.runningTotal=runningTotal;
 		this.openingDate = openingDate;
 	}
    

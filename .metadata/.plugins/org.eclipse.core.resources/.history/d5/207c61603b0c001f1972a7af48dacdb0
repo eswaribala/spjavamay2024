@@ -14,14 +14,13 @@ public class Account {
    private LocalDate openingDate;
    public Account(long runningTotal, LocalDate openingDate) {
 		//invoke another constructor
-		this(openingDate);
-		//this.runningTotal=runningTotal;
-		this.openingDate = openingDate;
+		this(runningTotal);
+		//this.openingDate = openingDate;
 	}
    
    public Account(LocalDate openingDate) {
-	   this.runningTotal=5000;
-	   this.openingDate= openingDate.plus(2,ChronoUnit.DAYS);
+	   this.runningTotal=runningTotal+500;
+	   this.openingDate= openingDate.plus(2,ChronoUnit.DAYS)
 	   
    }
 /*
