@@ -7,12 +7,11 @@ import com.siemens.bankingmodels.FullName;
 import com.siemens.bankingmodels.Gender;
 import com.siemens.bankingmodels.Individual;
 
-public class IndividualApp {
+public class CorporateApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        //pure annotation based constructor   
-		Individual individual=Individual.builder().accountNo(8458435)
+		Corporate corporate=Corporate.builder().accountNo(8458435)
 				.name(new FullName())
 				.email("param@gmail.com")
 				.gender(Gender.FEMALE)
@@ -23,10 +22,6 @@ public class IndividualApp {
 				.build();
 		System.out.println(individual);
 						
-		
-	
-
-		
 	}
 
 }

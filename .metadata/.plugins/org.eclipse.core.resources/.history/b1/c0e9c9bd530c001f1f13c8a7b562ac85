@@ -11,7 +11,7 @@ public class IndividualApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        //pure annotation based constructor   
+
 		Individual individual=Individual.builder().accountNo(8458435)
 				.name(new FullName())
 				.email("param@gmail.com")
