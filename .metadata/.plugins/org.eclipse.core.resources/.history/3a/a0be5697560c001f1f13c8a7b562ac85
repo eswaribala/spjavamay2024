@@ -9,7 +9,7 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
-//@NoArgsConstructor
+@NoArgsConstructor
 @SuperBuilder
 public class Customer {
 	
@@ -24,14 +24,12 @@ public class Customer {
 	protected String email;
 	protected String password;
 	protected Address address;
-	//instance block
+	
 	{
 		accountNo=42975697;
 		System.out.println(accountNo);
 	}
 	
-	public Customer() {
-		System.out.println("Touches Super class Constructor");
-	}
+	
 
 }

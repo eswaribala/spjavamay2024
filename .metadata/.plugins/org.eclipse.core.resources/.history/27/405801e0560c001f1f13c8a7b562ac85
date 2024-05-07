@@ -27,7 +27,5 @@ public class Individual extends Customer{
 		System.out.println("DOB="+dob.toString());
 	}
 		
-	public Individual() {
-		System.out.println("Touches Sub class Constructor");
-	}
+	
 }

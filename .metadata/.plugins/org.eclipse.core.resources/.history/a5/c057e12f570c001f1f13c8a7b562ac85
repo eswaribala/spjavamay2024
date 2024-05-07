@@ -12,7 +12,7 @@ public class IndividualApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         //pure annotation based constructor   
-		Individual individual=new Individual();
+		Individual individual=Individual();
 		System.out.println(individual);
 						
 		

@@ -9,7 +9,7 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
-//@NoArgsConstructor
+@NoArgsConstructor
 @SuperBuilder
 public class Customer {
 	
@@ -30,8 +30,6 @@ public class Customer {
 		System.out.println(accountNo);
 	}
 	
-	public Customer() {
-		System.out.println("Touches Super class Constructor");
-	}
+	
 
 }

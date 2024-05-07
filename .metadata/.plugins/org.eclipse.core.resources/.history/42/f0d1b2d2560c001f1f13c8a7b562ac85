@@ -21,13 +21,6 @@ public class Individual extends Customer{
 	}
 	private Gender gender;
 	private LocalDate dob;
-	
-	{
-		dob=LocalDate.now();
-		System.out.println("DOB="+dob.toString());
-	}
 		
-	public Individual() {
-		System.out.println("Touches Sub class Constructor");
-	}
+	
 }
