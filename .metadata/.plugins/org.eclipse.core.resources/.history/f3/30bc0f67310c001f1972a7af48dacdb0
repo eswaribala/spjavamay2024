@@ -38,16 +38,12 @@ public class App {
     	  customers[i].setAddress(new Address("","","",""));
     	  customers[i].setContactNo(new Random().nextInt(999999999));
     	  customers[i].setEmail("customer"+i+"@gmail.com");
-    	  customers[i].setPassword("Test"+new Random().nextInt(10000)
+    	  customers[i].setPassword("Test"+new Random().nextInt()
     			  +LocalDate.now().getDayOfMonth());         	  
       }
          
      //view the data
-      //enhanced for loop
       
-      for(Customer customer:customers) {
-    	  System.out.println(customer);
-      }
     		   
            
            

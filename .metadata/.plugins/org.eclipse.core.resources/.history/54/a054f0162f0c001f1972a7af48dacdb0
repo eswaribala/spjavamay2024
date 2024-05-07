@@ -80,7 +80,7 @@ public class TaxApp {
 		  switch(gender) {
 		  
 		  case MALE:
-			  //switch by range
+			  
 			  switch(range(salary)) {
 			   
 			   case 1:
