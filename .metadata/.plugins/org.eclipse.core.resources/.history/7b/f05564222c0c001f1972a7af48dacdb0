@@ -20,7 +20,7 @@ public class TaxApp {
 		//string to enum
 		gender=Gender.valueOf(scanner.nextLine());
 		System.out.println(gender);
-		System.out.println(computeTaxSwitch(gender,salary));
+		System.out.println(computeTax(gender,salary));
 
 	}
 	
@@ -74,7 +74,8 @@ public class TaxApp {
 	}
 	public static String computeTaxSwitch(Gender gender, int salary) {
 		double tax=0.0;
-		String message=null;		
+		String message=null;
+		
 		  
 		
 		  switch(gender) {
@@ -97,7 +98,7 @@ public class TaxApp {
 					message="Computed Tax="+tax;
 				}
 				
-				break;
+				return message;
 				
 				
 		  case FEMALE:
@@ -118,17 +119,21 @@ public class TaxApp {
 					message="Computed Tax="+tax;
 				}
 				
-				break;
+				return message;
 				
 			default:
-				message= "Nothing computed";
+				return "Nothing computed";
 			  
 		  
 		  }
 		
 		
-		return message;	
-				
+		
+			
+			
+		
+			
+		
 		
 		
 	}
