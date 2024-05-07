@@ -8,7 +8,7 @@ import lombok.ToString;
 
 @Getter
 @AllArgsConstructor
-@ToString(callSuper = true)
+@ToString
 public class Individual extends Customer{
 
 	private Gender gender;
