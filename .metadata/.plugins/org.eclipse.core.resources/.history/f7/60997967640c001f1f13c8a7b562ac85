@@ -1,0 +1,8 @@
+package com.siemens.banking.app.facades;
+
+public interface CustomerDAO {
+	
+	Customer addCustomer(Customer customer);
+	
+
+}

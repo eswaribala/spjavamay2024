@@ -1,0 +1,5 @@
+package com.siemens.banking.app.dao;
+
+public class CustomerDAOImpl implements CustomerDAO{
+
+}

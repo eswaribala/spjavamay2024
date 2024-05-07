@@ -1,0 +1,5 @@
+package com.siemens.banking.app.facades;
+
+public interface CustomerDAO {
+
+}

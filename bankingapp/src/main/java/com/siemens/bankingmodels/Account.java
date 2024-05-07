@@ -24,13 +24,7 @@ public class Account {
 	   this.openingDate= openingDate.plus(2,ChronoUnit.DAYS);
 	   
    }
-/*
-		@Override
-		public String toString() {
-			// TODO Auto-generated method stub
-			return "Running Toal="+runningTotal+","+"Opening Date="+openingDate;
-		}
-  */ 
-   
+    
+  
    
 }

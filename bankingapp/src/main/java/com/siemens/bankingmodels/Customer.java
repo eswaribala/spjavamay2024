@@ -9,29 +9,18 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
-//@NoArgsConstructor
+@NoArgsConstructor
 @SuperBuilder
-public class Customer {
+public  class Customer {
 	
-	static String organizationName;
-	static {
-		organizationName="Siemens";
-		System.out.println("Organization Name="+organizationName);
-	}
-	protected long accountNo;	
+	protected long accountNo;
 	protected FullName name;
 	protected long contactNo;
 	protected String email;
 	protected String password;
 	protected Address address;
-	//instance block
-	{
-		accountNo=42975697;
-		System.out.println(accountNo);
-	}
 	
-	public Customer() {
-		System.out.println("Touches Super class Constructor");
-	}
+	
+	
 
 }

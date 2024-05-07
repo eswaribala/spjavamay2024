@@ -1,0 +1,9 @@
+package com.siemens.banking.app;
+
+public class SavingsAccount {
+	
+       public SavingsAccount(Account account) {
+    	   System.out.println(account.runningTotal);
+       }
+
+}
