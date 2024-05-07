@@ -8,8 +8,7 @@ public class CliArgumentsDemo {
 		if(args.length>0) {
 			for(String arg : args) {
 			   if(arg.equals("8080")) {
-				   port=Integer.parseInt(arg)+10;
-				   System.out.println("Port="+port);
+				   port=Integer.parseInt(arg);
 			   }
 				
 		     	System.out.println(arg);
