@@ -16,6 +16,14 @@ public class Individual extends Customer{
 
 	private Gender gender;
 	private LocalDate dob;
-		
+	public Individual() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
 	
 }

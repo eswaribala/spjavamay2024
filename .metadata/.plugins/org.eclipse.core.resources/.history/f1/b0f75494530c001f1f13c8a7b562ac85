@@ -21,7 +21,6 @@ public class IndividualApp {
 				.dob(LocalDate.of(1970, 12, 2))
 				.contactNo(1234567890L)
 				.build();
-		System.out.println(individual);
 						
 		
 	
