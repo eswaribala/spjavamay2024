@@ -34,9 +34,6 @@ public class CorporateApp {
        corporate1.setName(new FullName("Parameswari","",""));
        System.out.println(corporate2.getAccountNo());
        System.out.println(corporate1.getAccountNo());
-       System.out.println(corporate1.getName().getFirstName());
-       System.out.println(corporate2.getName().getFirstName());
-     
 	}
 
 }
