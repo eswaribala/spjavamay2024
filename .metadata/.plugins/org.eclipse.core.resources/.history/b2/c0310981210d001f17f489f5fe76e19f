@@ -41,13 +41,13 @@ public class ExceptionDemo {
 	      for(Customer customer:customers) {	    	  
 	    	  System.out.println(customer);	    	 
 	      }
+		}catch(Exception ex) {
+			System.out.println(ex.getMessage());
+			
 		}
 		catch(ArrayIndexOutOfBoundsException ex) {
 			System.out.println(ex.getMessage());
 		}catch(InputMismatchException ex) {
-			System.out.println(ex.getMessage());
-			
-		}catch(Exception ex) {
 			System.out.println(ex.getMessage());
 			
 		}
