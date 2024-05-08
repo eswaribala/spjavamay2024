@@ -6,7 +6,7 @@ import com.siemens.bankingmodels.Address;
 import com.siemens.bankingmodels.Customer;
 
 public interface CustomerDAO {
-	//CRUD operation with mysql
+	
 	Customer addCustomer(Customer customer);
 	Customer editCustomer(long accountNo, long contactNo, Address address);
 	List<Customer> fetchAllCustomers();

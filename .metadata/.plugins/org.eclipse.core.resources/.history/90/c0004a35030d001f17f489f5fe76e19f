@@ -13,7 +13,11 @@ public class CorporateApp {
 
 	public static void main(String[] args) {
 		
-		
+		Corporate c1=new Corporate();
+        Corporate c2 =new Corporate();
+        Corporate c3=c1; // shallow copy
+        c2.setAccountNo(c1.getAccountNo());//deep copy=== > clone()
+        c2.setAddress(c1.getAddress()); //deep copy
 		
 		
 		// TODO Auto-generated method stub

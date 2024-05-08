@@ -13,7 +13,10 @@ public class CorporateApp {
 
 	public static void main(String[] args) {
 		
-		
+		Corporate c1=new Corporate();
+        Corporate c2 =new Corporate();
+        c2.setAccountNo(c1.getAccountNo());
+        
 		
 		
 		// TODO Auto-generated method stub

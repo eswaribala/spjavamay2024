@@ -1,0 +1,12 @@
+package com.siemens.banking.app.dao;
+
+import java.util.List;
+
+import com.siemens.banking.app.facades.CustomerDAO;
+import com.siemens.bankingmodels.Address;
+import com.siemens.bankingmodels.Customer;
+
+public class CustomerDAOImpl implements CustomerDAO{
+
+
+}

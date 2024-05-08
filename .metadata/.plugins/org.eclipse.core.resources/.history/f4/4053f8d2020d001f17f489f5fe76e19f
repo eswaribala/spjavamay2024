@@ -12,10 +12,6 @@ import com.siemens.bankingmodels.Individual;
 public class CorporateApp {
 
 	public static void main(String[] args) {
-		
-		
-		
-		
 		// TODO Auto-generated method stub
 		Corporate corporate1=Corporate.builder().accountNo(8458435)
 				.name(new FullName())
