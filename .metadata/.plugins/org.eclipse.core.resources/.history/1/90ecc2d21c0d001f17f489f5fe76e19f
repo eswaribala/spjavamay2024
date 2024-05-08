@@ -51,14 +51,10 @@ public class App {
       CustomerDAO customerDao=null;
       try {
     	  customerDao=new CustomerDAOImpl();
-    	  /*
 		 for(Customer customer:customers) {	    	  
-	    	  System.out.println(customer);
-	    	  System.out.println(customerDao.addCustomer(customer));
+	    	  //System.out.println(customer);
+	    	  //System.out.println(customerDao.addCustomer(customer));
 	      }
-	      */
-    	  //retrieve the data
-    	  System.out.println(customerDao.fetchCustomerByAccountNo(828587));
 		
 	} catch (ClassNotFoundException | SQLException e) {
 		// TODO Auto-generated catch block
@@ -66,7 +62,6 @@ public class App {
 	}
       
      
-      
     		   
     
      

@@ -75,9 +75,9 @@ public class CustomerDAOImpl implements CustomerDAO{
            customer.setContactNo(resultSet.getLong(5));
            customer.setEmail(resultSet.getString(6));
            customer.setPassword(resultSet.getString(7));
-           customer.setAddress(new Address(resultSet.getString(8),resultSet.getString(9),resultSet.getString(10),resultSet.getString(11)));
+           
 		
-		return customer;
+		return null;
 	}
 
 	@Override

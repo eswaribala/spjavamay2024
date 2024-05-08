@@ -71,13 +71,10 @@ public class CustomerDAOImpl implements CustomerDAO{
            resultSet.next();
            Customer customer = new Customer();
            customer.setAccountNo(resultSet.getLong(1));
-           customer.setName(new FullName(resultSet.getString(2),resultSet.getString(3),resultSet.getString(4)));
-           customer.setContactNo(resultSet.getLong(5));
-           customer.setEmail(resultSet.getString(6));
-           customer.setPassword(resultSet.getString(7));
-           customer.setAddress(new Address(resultSet.getString(8),resultSet.getString(9),resultSet.getString(10),resultSet.getString(11)));
+           customer.setName(new FullName(resultSet.getLong(2),resultSet.getLong(3),resultSet.getLong(4)));;
+           
 		
-		return customer;
+		return null;
 	}
 
 	@Override

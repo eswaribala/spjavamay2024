@@ -1,0 +1,5 @@
+username=root
+password=vignesh
+url=jdbc:mysql://localhost:3306/bankingdbmay2024
+driver=com.mysql.cj.jdbc.Driver
+addcustomer=insert into customer(Account_No,First_Name,Middle_Name,Last_Name,Contact_No,Email,Password,Door_No,Street_Name,City,State) values(?,?,?,?,?,?,?,?,?,?,?)

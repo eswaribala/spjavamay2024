@@ -11,7 +11,7 @@ public interface CustomerDAO {
 	String addCustomer(Customer customer) throws SQLException;
 	Customer editCustomer(long accountNo, long contactNo, Address address);
 	List<Customer> fetchAllCustomers();
-	Customer fetchCustomerByAccountNo(long accountNo) throws SQLException ;
+	Customer fetchCustomerByAccountNo(long accountNo);
 	boolean deleteCustomerByAccountNo(long accountNo);
 
 }
