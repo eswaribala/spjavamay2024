@@ -13,19 +13,14 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-//cloneable is the marker interface marking the class to be cloned (shallow copy)
-//implementing clone method and how the clone has to happen -- deep copy
 public class Corporate extends Customer implements Cloneable {
 	private CompanyType companyType;
-
-	//deep copy
+	//create copy constructor
 	@Override
-	public Corporate clone() throws CloneNotSupportedException {
+	public Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
-		Corporate corporate= (Corporate) super.clone();
-		return corporate;
+		return super.clone();
 	}
-	
 
 	
 	

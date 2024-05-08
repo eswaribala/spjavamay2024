@@ -18,13 +18,6 @@ import lombok.experimental.SuperBuilder;
 public class Corporate extends Customer implements Cloneable {
 	private CompanyType companyType;
 
-	//deep copy
-	@Override
-	public Corporate clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
-		Corporate corporate= (Corporate) super.clone();
-		return corporate;
-	}
 	
 
 	

@@ -20,10 +20,9 @@ public class Corporate extends Customer implements Cloneable {
 
 	//deep copy
 	@Override
-	public Corporate clone() throws CloneNotSupportedException {
+	protected Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
-		Corporate corporate= (Corporate) super.clone();
-		return corporate;
+		return super.clone();
 	}
 	
 
