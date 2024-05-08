@@ -9,7 +9,6 @@ import com.siemens.bankingmodels.FullName;
 import com.siemens.bankingmodels.Gender;
 import com.siemens.bankingmodels.Individual;
 import com.siemens.bankingmodels.Customer;
-import  com.siemens.banking.app.facades.IndividualSorter;
 public class IndividualApp {
 
 	public static void main(String[] args) {

@@ -34,7 +34,7 @@ public class IndividualApp {
 			System.out.println(individual);
 		}
 		
-		Arrays.sort(individuals,new IndividualSorter());
+		Arrays.sort(individuals);
 		System.out.println("After Sorting......");
 		for(Individual individual : individuals) {
 			System.out.println(individual);
