@@ -52,7 +52,7 @@ public class App {
 		CustomerDAO customerDao=new CustomerDAOImpl();
 		 for(Customer customer:customers) {	    	  
 	    	  System.out.println(customer);
-	    	  System.out.println(customerDao.addCustomer(customer));
+	    	  customerDao.addCustomer(customer);
 	      }
 		
 	} catch (ClassNotFoundException | SQLException e) {

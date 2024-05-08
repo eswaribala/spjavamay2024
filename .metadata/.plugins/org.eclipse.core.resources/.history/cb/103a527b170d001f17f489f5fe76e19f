@@ -50,9 +50,9 @@ public class App {
       //jdbc invoke interface 
       try {
 		CustomerDAO customerDao=new CustomerDAOImpl();
-		 for(Customer customer:customers) {	    	  
+		 for(Customer customer:customers) {
+	    	  
 	    	  System.out.println(customer);
-	    	  System.out.println(customerDao.addCustomer(customer));
 	      }
 		
 	} catch (ClassNotFoundException | SQLException e) {
