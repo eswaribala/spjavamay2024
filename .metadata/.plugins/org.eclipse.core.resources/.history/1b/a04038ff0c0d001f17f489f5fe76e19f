@@ -26,7 +26,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 	}
 
 	@Override
-	public String addCustomer(Customer customer) throws SQLException{
+	public Customer addCustomer(Customer customer) throws SQLException {
 		// TODO Auto-generated method stub
 		prepareStatement=conn.prepareStatement(rb.getString("addcustomer"));
 		prepareStatement.setLong(1, customer.getAccountNo());
@@ -41,10 +41,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 		prepareStatement.setString(10, customer.getAddress().getCity());
 		prepareStatement.setString(11, customer.getAddress().getState());
 		int rows=prepareStatement.executeUpdate();
-		if(rows>0)
-			return "Customer Added";
-		else
-			return "Customer not Added";
+		
+		return null;
 	}
 
 	@Override

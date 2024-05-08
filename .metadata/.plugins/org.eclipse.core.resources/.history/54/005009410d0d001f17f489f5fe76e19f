@@ -1,6 +1,5 @@
 package com.siemens.banking.app.facades;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import com.siemens.bankingmodels.Address;

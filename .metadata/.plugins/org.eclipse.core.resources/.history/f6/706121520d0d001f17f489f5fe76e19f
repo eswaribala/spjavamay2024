@@ -8,7 +8,7 @@ import com.siemens.bankingmodels.Customer;
 
 public interface CustomerDAO {
 	//CRUD operation with mysql
-	String addCustomer(Customer customer) throws SQLException;
+	String addCustomer(Customer customer) throws Exception;
 	Customer editCustomer(long accountNo, long contactNo, Address address);
 	List<Customer> fetchAllCustomers();
 	Customer fetchCustomerByAccountNo(long accountNo);
