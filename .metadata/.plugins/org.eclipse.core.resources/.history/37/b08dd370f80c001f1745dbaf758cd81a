@@ -13,16 +13,16 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
-public class Corporate extends Customer implements Cloneable {
+public class Corporate extends Customer implements Cloneable{
 	private CompanyType companyType;
-	//create copy constructor
+
 	@Override
 	public Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
 
-	
+
 	
 	
 }

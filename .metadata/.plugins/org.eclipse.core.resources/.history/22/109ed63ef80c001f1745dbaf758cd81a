@@ -22,17 +22,9 @@ public class CorporateApp {
 				.companyType(CompanyType.PRIVATE)
 				.build();
 		System.out.println(corporate1);
-		Corporate corporate2=null;
-		try {
-		corporate2=(Corporate) corporate1.clone();
-		System.out.println(corporate2);
-		}catch(CloneNotSupportedException exception) {
-			System.out.println(exception.getMessage());
-		}
+		Corporate corporate2=(Corporate) corporate1.clone();
 		
-       corporate1.setAccountNo(437576);
-       System.out.println(corporate2.getAccountNo());
-       System.out.println(corporate1.getAccountNo());
+						
 	}
 
 }

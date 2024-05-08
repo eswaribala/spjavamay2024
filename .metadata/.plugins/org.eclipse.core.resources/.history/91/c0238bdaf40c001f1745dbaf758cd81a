@@ -42,6 +42,15 @@ public class IndividualApp {
 			System.out.println(individual);
 		}
 
+		//java 8
+		List<Individual> individualList=new ArrayList();
+		for(Individual individual : individuals) {
+			 individualList.add(individual);
+		}
+		
+		individualList.stream().filter(i->i.getGender().equals(Gender.MALE))
+		.toList();
+		
 		
 	
 	}

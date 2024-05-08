@@ -15,14 +15,8 @@ import lombok.experimental.SuperBuilder;
 @ToString(callSuper = true)
 public class Corporate extends Customer implements Cloneable {
 	private CompanyType companyType;
-	//create copy constructor
-	@Override
-	public Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
-		return super.clone();
-	}
 
-	
+	//create copy constructor
 	
 	
 }

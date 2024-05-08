@@ -30,9 +30,11 @@ public class CorporateApp {
 			System.out.println(exception.getMessage());
 		}
 		
-       corporate1.setAccountNo(437576);
-       System.out.println(corporate2.getAccountNo());
-       System.out.println(corporate1.getAccountNo());
+		if(corporate1.equals(corporate2))
+			System.out.println("same");
+		else
+			System.out.println("not same");
+						
 	}
 
 }

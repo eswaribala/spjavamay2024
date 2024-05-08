@@ -1,0 +1,23 @@
+package com.siemens.banking.app;
+
+import java.time.LocalDate;
+
+import com.siemens.bankingmodels.Address;
+import com.siemens.bankingmodels.CompanyType;
+import com.siemens.bankingmodels.Corporate;
+import com.siemens.bankingmodels.FullName;
+import com.siemens.bankingmodels.Gender;
+import com.siemens.bankingmodels.Individual;
+
+public class CorporateApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Corporate corporate1=new Corporate();
+		System.out.println(corporate1);
+		Corporate corporate2=corporate1.
+		
+						
+	}
+
+}
