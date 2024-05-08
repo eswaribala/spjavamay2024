@@ -48,9 +48,8 @@ public class App {
       //enhanced for loop
       
       //jdbc invoke interface 
-      CustomerDAO customerDao=null;
       try {
-    	  customerDao=new CustomerDAOImpl();
+		CustomerDAO customerDao=new CustomerDAOImpl();
 		 for(Customer customer:customers) {	    	  
 	    	  System.out.println(customer);
 	    	  System.out.println(customerDao.addCustomer(customer));
