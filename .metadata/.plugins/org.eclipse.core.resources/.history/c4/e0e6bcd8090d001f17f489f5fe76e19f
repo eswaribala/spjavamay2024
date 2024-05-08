@@ -1,0 +1,18 @@
+package com.siemens.banking.app.helpers;
+
+import java.sql.Connection;
+import java.util.ResourceBundle;
+
+public class MySQLHelper {
+	
+	private Connection conn;
+	private ResourceBundle rb;
+	
+	public static Connection getConnection() {
+		rb=ResourceBundle.getBundle("db");
+		
+		
+	}
+	
+
+}
