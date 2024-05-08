@@ -13,12 +13,7 @@ public class CustomException {
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter Name");		
 		String name=scanner.nextLine();
-		  try {
-			validateName(name);
-		} catch (UserNameException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		  validateName(name);
 		System.out.println("All Done...");  
 		  
 			   
@@ -26,7 +21,7 @@ public class CustomException {
 	
 	
 	
-	public static void validateName(String name) throws UserNameException{
+	public static void validateName(String name) {
 		String regex="^[A-Za-z]*$";
 		Pattern pattern=Pattern.compile(regex);
 		   if(pattern.matcher(name).matches())

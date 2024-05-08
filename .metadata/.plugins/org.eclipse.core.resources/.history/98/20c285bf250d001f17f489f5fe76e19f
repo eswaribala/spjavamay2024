@@ -11,22 +11,15 @@ public class CustomException {
 		// TODO Auto-generated method stub
 
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("Enter Name");		
+		System.out.println("Enter Name");	
+		
 		String name=scanner.nextLine();
-		  try {
-			validateName(name);
-		} catch (UserNameException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		System.out.println("All Done...");  
-		  
 			   
 	}
 	
 	
 	
-	public static void validateName(String name) throws UserNameException{
+	public void validateName(String name) {
 		String regex="^[A-Za-z]*$";
 		Pattern pattern=Pattern.compile(regex);
 		   if(pattern.matcher(name).matches())

@@ -1,0 +1,22 @@
+package com.siemens.banking.app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List list=new ArrayList();
+		list.add("hi");
+		list.add(234255);
+		list.add(true);
+		list.add(16.35f)
+		list.add(456.78)
+		
+		
+		
+	}
+
+}

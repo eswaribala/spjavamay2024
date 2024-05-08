@@ -1,0 +1,15 @@
+package com.siemens.banking.app;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       LinkedList<Customer>  linkedList=new LinkedList();  
+		
+	}
+
+}
