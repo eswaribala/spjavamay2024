@@ -1,13 +1,13 @@
 package com.siemens.banking.app;
 
-import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.Random;
 
 import com.siemens.bankingmodels.Address;
 import com.siemens.bankingmodels.Customer;
 import com.siemens.bankingmodels.FullName;
-
+import com.siemens.banking.app.facades.CustomerDAO;
+import com.siemens.banking.app.dao.CustomerDAOImpl;
 //Entry point for banking application
 /**
  * @author Parameswari Bala
@@ -51,8 +51,12 @@ public class App {
     	  System.out.println(customer);
       }
     		   
-    
-     
+     //insert to db
+      CustomerDAO customerDao=new CustomerDAOImpl();
+      
+      for(Customer customer:customers) {
+    	  
+      }
            
 	}
 	
