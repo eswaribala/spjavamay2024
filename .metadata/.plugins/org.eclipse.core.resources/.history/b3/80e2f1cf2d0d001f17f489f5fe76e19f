@@ -1,0 +1,16 @@
+package com.siemens.banking.app;
+
+import java.util.TreeMap;
+
+import com.siemens.bankingmodels.Customer;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      TreeMap<Long,Customer> customers=new TreeMap<Long,Customer>(new CustomerSorter());
+		
+		
+	}
+
+}
