@@ -2,18 +2,19 @@ package com.siemens.bankingmodels;
 
 import java.time.LocalDate;
 
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-
 @NoArgsConstructor
-
 public class SavingsAccount extends Account implements Runnable{
 
-	
+	public SavingsAccount(LocalDate openingDate) {
+		super(openingDate);
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		System.out.println("Called Savings Thread");
+		
 	}
 
 	

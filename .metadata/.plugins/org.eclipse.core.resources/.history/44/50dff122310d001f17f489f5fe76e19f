@@ -1,0 +1,19 @@
+package com.siemens.banking.app;
+
+public class TitleThread extends Thread{
+	private String name;
+	
+	public TitleThread(String name) {
+		this.name=name;
+	}
+	
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+	
+	
+
+}
